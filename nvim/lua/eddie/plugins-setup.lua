@@ -27,7 +27,9 @@ end
 -- add list of plugins to install
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
-  -- My plugins here
+  use 'bluz71/vim-nightfly-guicolors' -- Theme
+  use 'nvim-tree/nvim-tree.lua' --file explorer
+
   -- use 'foo1/bar1.nvim'
   -- use 'foo2/bar2.nvim'
 
